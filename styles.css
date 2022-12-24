@@ -224,6 +224,7 @@ footer{
 	text-align: center;
 	padding: 10px;
 	box-sizing: border-box;
+	max-width: 600px;
 }
 
 footer a{
@@ -234,6 +235,11 @@ footer a{
 footer a:hover{
 	text-decoration: none;
 	color: blue;
+}
+
+footer p:last-of-type{
+	margin: 0;
+	padding: 0;
 }
 
 @media (max-width: 900px) {
