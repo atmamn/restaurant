@@ -72,9 +72,13 @@ total = 0;
 for (i = 0; i < arrayItems.length; i++ ) {
     total += parseFloat(arrayItems[i]);
 }
-document.getElementById('SUM').innerHTML="Total: "+total;
+if(total>0){
+	document.getElementById('SUM').style.display='block'; //<- show the div because total is not null
+	document.getElementById('SUM').innerHTML="Total: "+total;
+	}else{
+	document.getElementById('SUM').style.display='none';  //<- hide the div because total is null
+	}
 }
-
 
 feedArray();
 totalSet();
