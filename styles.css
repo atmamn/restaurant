@@ -83,7 +83,7 @@
 	box-sizing: border-box;
 	padding: 17px 242px;
 	width: 100%;
-	background-image: linear-gradient(red, rgb(222, 3, 3)); /*rgb(198, 16, 16)*/
+	background-image: #F0202E; /*rgb(198, 16, 16)*/
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
