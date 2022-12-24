@@ -31,6 +31,10 @@
 	padding-top: 25px;
 }
 
+.restaurant h2{
+	text-align: center;
+}
+
 .restaurant-foods-material-icon{
 	color: rgb(255, 0, 0);
 	margin: auto;
