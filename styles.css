@@ -1,0 +1,258 @@
+/*RESTURANT PROJECT*************************************************************************************************************/
+.restaurant-project-body{
+	background-image: url("restaurant.webp");
+	width: 100vw;
+	/*object-fit: cover;*/
+	/*background-size: 100% 100%;*/
+	overflow-x: hidden;
+}
+.restaurant{ 
+	width: 70%;
+	height: auto;
+	background-color: white;
+	margin: 30px auto 0 auto;
+	max-width: 600px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 0 0 5px 5px rgb(131, 128, 128);
+	box-sizing: border-box;
+}
+.restaurant-center h1{
+	padding-top: 5px;
+}
+
+.restaurant h2{
+	text-align: center;
+}
+
+.restaurant-center p{
+	margin-top: -23px;
+	padding: 4px;
+}
+.restaurant-center{
+	text-align: center;
+}
+
+.restaurant-center h1{
+	padding-top: 25px;
+}
+
+.restaurant-foods-material-icon{
+	color: rgb(255, 0, 0);
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+
+.restaurant-drinks-material-icon{
+	color: rgb(153, 31, 31);
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+.restaurant-article p{
+	display: inline-block;
+}
+/*h2{
+	text-align: center;
+}*/
+.restaurant-food, .restaurant-drink{
+	text-align: left;
+	width: 50%;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+.restaurant-price{
+	text-align: right;
+	width: 50%;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+/*footer p{
+	text-align: center;
+}*/
+.restaurant-down{
+	padding-bottom: 25px;
+}
+
+.restaurant-place-order-link-background{
+	box-sizing: border-box;
+	text-align: center;
+	margin: 25px auto;
+	width: 100%;
+	height: auto;
+/*	border: 1px solid red;*/
+}
+
+.restaurant-place-order-link{
+	border: 1px solid none;
+	box-sizing: border-box;
+	padding: 17px 242px;
+	width: 100%;
+	background-color: #CF152D;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.restaurant-place-order-form{
+	box-sizing: border-box;
+	max-width: 600px;
+	width: 70%;
+	height: auto;
+	padding: 25px 10px;
+	margin: 50px auto;
+	background-color: white;
+	display: block;
+}
+
+.restaurant-place-order-form section label{
+	display: block;
+}
+
+.restaurant-checkbox-div{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.restaurant-checkbox-div label{
+	font-size: 30px;
+	color: black;
+	/*border: 1px solid green;*/
+}
+
+.restaurant-checkbox-div label input[type=checkbox] {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+.disabled:hover{
+	cursor: not-allowed;
+}
+
+.details-sec{
+	margin-top: 20px;
+	display: flex;
+	font-size: 25px;
+	column-gap: 15px;
+	margin-bottom: 20px;
+}
+
+.address {
+	width: 230px;
+	height: 20px;
+}
+
+.mobile{
+	width: 150px;
+	height: 20px;
+}
+
+
+.add-instruction-section{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.add-instruction-section a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.plus{
+	position: absolute;
+}
+
+.add-instruction-section a:hover{
+	color: blue;
+	font-size: 20px;
+}
+
+#textarea{
+	width: 90%;
+	resize: vertical;
+	margin-top: 10px;
+	transition: .5s;
+}
+
+.textareadiv{
+	display: none;
+	transition: .5s;
+}
+
+.textareadiv.extra{
+	display: block;
+	transition: .5s;
+}
+
+.summm{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 15px;
+	/*display: none;*/
+}
+
+/*.summm.jsss{
+	display: block;
+}*/
+
+.payment-section{
+	margin: 15px;
+	text-align: center;
+}
+
+.payment-section button{
+	
+	width: 180px;
+	background-color: #F89500;
+	border: 1px solid #F89500;
+	color: white !important;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 3px;
+	padding: 20px;
+	font-size: 18px;
+}
+
+footer{
+	width: 70%;
+	background-color: white;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: blue;
+}
+
+@media (max-width: 900px) {
+	.restaurant-place-order-link{
+		padding: 17px 22vw;
+
+	}	
+	.restaurant-checkbox-div{
+		grid-template-columns: 1fr;
+	}
+	.details-sec{
+		display: block;
+	}
+	
+	.address {
+		width: 205px;
+	}
+	
+	.mobile{
+		width: 205px;
+		margin-left: 9px;
+	}
+}
