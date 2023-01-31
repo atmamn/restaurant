@@ -1,9 +1,10 @@
 /*RESTURANT PROJECT*************************************************************************************************************/
 .restaurant-project-body{
-	background-image: url("restaurant.webp");
-	width: 100vw;
+	background-image: url("restaurant.png");
+	background-position: center;
+	background-repeat: no-repeat;
 	/*object-fit: cover;*/
-	/*background-size: 100% 100%;*/
+	background-size: 100% 100%;
 	overflow-x: hidden;
 }
 .restaurant{ 
